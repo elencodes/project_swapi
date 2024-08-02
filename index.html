@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>API - Swapi</title>
+</head>
+
+<body>
+
+	<section class="container">
+		<h1>Кого или что будем искать?</h1>
+		<select class="select">
+			<option value="films">Фильмы</option>
+			<option value="people">Людей</option>
+			<option value="planets">Планеты</option>
+			<option value="species">Виды</option>
+			<option value="starships">Звездные корабли</option>
+			<option value="vehicles">Транспорт</option>
+		</select>
+		<input type="text" class="id" placeholder="Введите число">
+		<button class="button">Вперед!</button>
+		<div class="loading" style="display: none;">Данные загружаются...</div>
+		<div class="result"></div>
+		<div class="error"></div>
+	</section>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
