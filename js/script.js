@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 			})
 			.finally(function () { //В любом случае
 				loading.style.display = "none";
-				console.log('Данные по API были запрошены');
+				console.log('Были запрошены данные SWAPI - The Star Wars API');
 			});
 	}
 	//Вызываем функцию, чтобы код сработал
