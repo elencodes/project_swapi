@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 				console.log('Были запрошены данные SWAPI - The Star Wars API');
 			});
 	}
-	//Вызываем функцию, чтобы код сработал
+	//При нажатии на кнопку вызываем функццию, чтобы код сработал
 	button.style.cursor = "pointer";
 	button.addEventListener(`click`, showResult);
 })
